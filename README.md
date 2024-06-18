@@ -1,9 +1,7 @@
 # Horizon Detection and Brightness Equalization in Maritime Situations
 ### Introduction
 
-The rapid advancements in autonomous vehicle technologies have significantly impacted the development of autonomous ships, with enhancing situational awareness being a key challenge. This awareness relies heavily on integrating various sensors. Previous research developed image stitching technology to combine images from multiple cameras into a single, wide-view composite image. However, issues with pixel brightness variations and weak blending algorithms were identified. Below is an example image illustrating these issues.
-![stitching image example](/data/pano131.jpg)
-This study aims to equalize brightness across stitched images, improving the quality and reliability of the composite image and enhancing situational awareness for autonomous ships. As shown in the flowchart below, the Blending and Stitching Algorithm involves many steps. In this repository, I will focus on horizontal detection and brightness equalizing.
+The rapid advancements in autonomous vehicle technologies have significantly impacted the development of autonomous ships, with enhancing situational awareness being a key challenge. This awareness relies heavily on integrating various sensors. Previous research developed image stitching technology to combine images from multiple cameras into a single, wide-view composite image. However, issues with pixel brightness variations and weak blending algorithms were identified. This study aims to equalize brightness across stitched images, improving the quality and reliability of the composite image and enhancing situational awareness for autonomous ships. As shown in the flowchart below, the Blending and Stitching Algorithm involves many steps. In this repository, I will focus on horizontal detection and brightness equalizing.
 
 ![Flowchart for Horizon detection and Brightness Equalization](/flowchart/flowchart_final.png)
 ### Hypothesis
