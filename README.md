@@ -30,6 +30,10 @@ It effectively detects the horizon, and with brightness equalization, it is chal
 ![alt text](/result/original_5.png)
 ![alt text](/result/result_5.png)
 
+### Limitation
+The current method of brightness equalization involves averaging the brightness of the top and bottom parts of the image. While this approach helps in standardizing brightness, it may not be sufficient in all cases. Advanced blending algorithms, such as Deep Image Blending, might yield better results by leveraging machine learning techniques to adaptively blend images based on their unique characteristics. However, the primary focus of this study is to minimize runtime and ensure the solution's applicability to real-world scenarios. Consequently, we opted not to use ML/DL approaches due to their higher computational demands.
+
+Another limitation is the horizon detection's sensitivity to complex environments. In scenarios where the ship is near the land or in the presence of multiple objects, the algorithm may struggle to accurately detect the horizon. Enhancements in horizon detection algorithms could potentially mitigate this issue, improving reliability across diverse maritime conditions. Future research could explore these advanced techniques while balancing the need for computational efficiency.
 
 ### Reference
 [1] Jeong, Chi Yoon, et al. “Fast horizon detection in maritime images using region-of-interest.” International Journal of Distributed Sensor Networks, vol. 14, no. 7, July 2018, https://doi.org/10.1177/1550147718790753. 
