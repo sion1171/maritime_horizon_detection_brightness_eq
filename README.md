@@ -21,7 +21,8 @@ The steps for brightness equalization are listed below. <br>
 2. **Adjust Brightness**: Calculate the average brightness of the top and bottom sections of the image and adjust the brightness accordingly.
 3. **Convert HSV to RGB**: Switch back to the RGB color scale from HSV using `cv2.cvtColor(image, cv2.COLOR_HSV2BGR)`.
 ### Results
-It effectively detects the horizon, and with brightness equalization, it is challenging to ascertain its effectiveness on real data. However, it appears to work well with the sample data. It is expected that this data cleansing process will prove effective during the stitching process. Future experiments will reveal if the data cleansing process was effective. You can see more results in the [result file](result).
+It effectively detects the horizon, and with brightness equalization, it is challenging to ascertain its effectiveness on real data. However, it appears to work well with the sample data. It is expected that this data cleansing process will prove effective during the stitching process. Future experiments will reveal if the data cleansing process was effective.
+###### You can see more results in the [result file](result).
 ![alt text](/result/original_1.png)
 ![alt text](/result/result_1.png)
 ![alt text](/result/original_5.png)
