@@ -37,3 +37,17 @@ Another limitation is the horizon detection's sensitivity to complex environment
 
 ### Reference
 [1] Jeong, Chi Yoon, et al. “Fast horizon detection in maritime images using region-of-interest.” International Journal of Distributed Sensor Networks, vol. 14, no. 7, July 2018, https://doi.org/10.1177/1550147718790753. 
+
+### Repository Layout & Usage
+| Path | Description |
+|---|---|
+| `final.py` | Horizon detection + brightness equalization pipeline (OpenCV) |
+| `result.ipynb` | Notebook walking through the pipeline with intermediate outputs |
+| `data/` | Sample camera frames (`cam1_*.jpg`, `cam2_*.jpg`) and stitched panoramas |
+| `flowchart/` | Diagrams used in this README |
+| `result/` | Output images |
+
+```sh
+pip install opencv-python numpy matplotlib numba
+python final.py
+```
